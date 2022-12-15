@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 
 const NewsItemBlock = styled.div`
@@ -29,7 +30,6 @@ const NewsItemBlock = styled.div`
     margin-top: 3rem;
   }
 `;
-
 const NewsItem = ({ article }) => {
   const { title, description, url, urlToImage } = article;
   return (
